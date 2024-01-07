@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  background-color: #f1f1f1;
+  overflow-x: auto; /* Enable horizontal scrolling for tabs on small screens */
+  white-space: nowrap; /* Prevent line breaks in tabs */
+}
+
+.tab {
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+#chart1,
+#chart2 {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; /* Center the charts */
+}

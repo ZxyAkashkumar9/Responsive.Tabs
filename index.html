@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tabs">
+      <button class="tab" onclick="openTab('tab1')">Tab 1</button>
+      <button class="tab" onclick="openTab('tab2')">Tab 2</button>
+      <!-- Add more tabs as needed -->
+    </div>
+
+    <div id="tab1" class="tab-content">
+      <!-- Content for Tab 1 -->
+      <h2>Tab 1 Content</h2>
+      <div id="chart1"></div>
+    </div>
+
+    <div id="tab2" class="tab-content">
+      <!-- Content for Tab 2 -->
+      <h2>Tab 2 Content</h2>
+      <div id="chart2"></div>
+    </div>
+
+    <!-- Include JavaScript library for charts (e.g., Chart.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include your custom script file -->
+    <script src="script.js"></script>
+  </body>
+</html>
